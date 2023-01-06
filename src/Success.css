@@ -1,0 +1,44 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(0, 255, 13);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.info{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.desc{
+    width: 400px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
